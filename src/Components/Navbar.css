@@ -3,22 +3,22 @@ nav {
     display: block;
     text-align: center;
     /* border: 2px solid yellow; */
-    background: #123456;
+    background: #2a0459;
   }
   nav ul {
-    margin: 0;
-    padding:0;
+    margin: 1;
+    padding:1;
     list-style: none;
   }
   .nav a {
     display:block; 
-    background: #123456; 
+    background: #0b5d78; 
     color:#fff; 
     text-decoration: none;
     padding: .8em 1.8em;
     /* text-transform: uppercase; */
     font-size: 100%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-shadow: 0 -1px 0 #000;
     position: relative;
   }
@@ -26,7 +26,7 @@ nav {
     vertical-align: top; 
     display: inline-block;
     box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
-    border-radius:6px;
+    border-radius:8px;
   }
   .nav li{position: relative;}
   .nav > li { 
@@ -39,7 +39,7 @@ nav {
     
   }
   .nav > li:hover , .nav > li:hover >a{ 
-    border-bottom-color:orange;
+    border-bottom-color:rgb(230, 114, 19);
   }
   .nav li:hover > a { color:#39FF14; }
   .nav > li:first-child  { border-radius: 4px 0 0 4px;} 
