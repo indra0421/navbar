@@ -5,9 +5,7 @@ nav {
     /* border: 2px solid yellow; */
     background: #2a0459;
   }
-
-
-  nav ul {
+nav ul {
     margin: 1;
     padding:1;
     list-style: none;
@@ -25,7 +23,7 @@ nav {
     position: relative;
   }
 
-  .nav{  
+.nav{  
     vertical-align: top; 
     display: inline-block;
     box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
@@ -53,10 +51,7 @@ nav {
   } 
   .nav > li:last-child >a{border-radius: 0 4px 0 0; }
   .nav li li a { margin-top:1px}
-  
-  
-  
-    .nav li a:first-child:nth-last-child(2):before { 
+  .nav li a:first-child:nth-last-child(2):before { 
      content:""; 
      position: absolute; 
      height:0; 
@@ -66,7 +61,7 @@ nav {
      right:5px;  
    }
    
-   /* submenu positioning*/
+   /* sub menu positioning*/
 .nav ul {
   position: absolute;
   white-space: nowrap;
@@ -80,8 +75,6 @@ nav {
   min-width: 100%;
 }
 .nav > li li ul {  border-left:1px solid #fff;}
-
-
 .nav > li li:hover > ul { 
  /* margin-left: 1px */
   left: 100%;
